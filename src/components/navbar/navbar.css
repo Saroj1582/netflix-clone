@@ -1,0 +1,84 @@
+.container {
+  width: 100%;
+  color: white;
+  position: fixed;
+  top: 0;
+  background: linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.3) 50%);
+  z-index: 999;
+}
+
+.scrolled {
+  background: var(--main-color);
+}
+
+.navbar {
+  height: 70px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navLeft {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  font-size: 14px;
+}
+
+.menu li {
+  cursor: pointer;
+}
+
+.navRight {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.searchInput {
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px;
+  background: transparent;
+  color: white;
+  display: none;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.userImg {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.profile .options {
+  display: none;
+  background: var(--main-color);
+}
+
+.profile:hover .options {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.options span {
+  padding: 10px;
+  cursor: pointer;
+}

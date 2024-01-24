@@ -1,0 +1,81 @@
+.featured {
+  height: 90vh;
+  position: relative;
+}
+
+.category {
+  position: absolute;
+  top: 80px;
+  left: 50px;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.category select {
+  background: var(--main-color);
+  border: 1px solid white;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.bgImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.info {
+  width: 35%;
+  position: absolute;
+  left: 50px;
+  bottom: 100px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info img {
+  width: 400px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  gap: 5px;
+}
+
+.playBtn {
+  background: white;
+  color: var(--main-color);
+}
+
+.infoBtn {
+  background: gray;
+  color: white;
+}
+
+/* .infoIcon {
+  font-size: 20px;
+}
+
+.buttons button span {
+  font-weight: bold;
+} */

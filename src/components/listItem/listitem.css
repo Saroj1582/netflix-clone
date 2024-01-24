@@ -1,0 +1,77 @@
+.listItem {
+  width: 225px;
+  height: 120px;
+  background: var(--main-color);
+  cursor: pointer;
+  color: white;
+  overflow: hidden;
+}
+
+.listItem:hover {
+  width: 325px;
+  height: 300px;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.07);
+  box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.07);
+  position: absolute;
+  top: -150px;
+  border-radius: 5px;
+}
+
+.listItem:hover img {
+  height: 140px;
+}
+
+.listItem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.listItem video {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.listItemInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px;
+}
+
+.listIcons {
+  display: flex;
+  gap: 5px;
+}
+
+.listIcon {
+  border: 2px solid white;
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.listItemDetail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: gray;
+}
+
+.ageLimit {
+  border: 1px solid gray;
+  padding: 1px 3px;
+}
+
+.desc {
+  font-size: 13px;
+}
+
+.genre {
+  font-size: 14px;
+  color: lightgray;
+}
